@@ -16,8 +16,8 @@ Linkedin Clone Application is developed with real-time database using MongoDB, F
 
 # Requirements
 
-- Node
-- Python
+- Node 🤖
+- Python 🔥
 - Browser 😃
 
 # Installation
