@@ -1,0 +1,97 @@
+.postcard {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 5px;
+  margin-top: 0;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.postcard__top {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.postcard__top > button {
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: none;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.postcard__top :hover {
+  background-color: #f3f6f8;
+  color: rgb(66, 66, 66);
+  transition: 100ms ease-in;
+}
+
+.postcard__top > button > .MuiSvgIcon-root {
+  color: rgb(95, 95, 95);
+}
+
+.postcard__top > button > p {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+  color: rgb(110, 110, 110);
+  font-size: 19px;
+  font-weight: 500;
+}
+.postcard > hr {
+  border: none;
+  background-color: rgb(204, 204, 204);
+  width: 100%;
+  height: 1px;
+}
+
+.postcard__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.postcard__bottomIcon {
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.postcard__bottomIcon > p {
+  margin-left: 10px;
+  color: rgb(148, 148, 148);
+  font-weight: 600;
+}
+
+.postcard__bottomIcon:hover {
+  background-color: #f3f6f8;
+  transition: 100ms ease-in;
+}
+
+#camera {
+  color: #33aada !important;
+}
+
+#video {
+  color: #9896f2 !important;
+}
+
+#event {
+  color: #c19191 !important;
+}
+
+#article {
+  color: #f09b65 !important;
+}

@@ -1,0 +1,50 @@
+.messages {
+  right: 20px;
+  position: fixed;
+  bottom: 0px;
+  width: 320px;
+  background-color: #283e4a;
+  color: white;
+  min-height: 45px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.75);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.messages:hover {
+  background-color: #131f25;
+  transition: 100ms ease-in;
+}
+
+.messages__left > .MuiAvatar-root {
+  height: 30px;
+  width: 30px;
+}
+
+.messages__left {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.messages__left > h3 {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.messages__rightButton .MuiSvgIcon-root {
+  color: white !important;
+  font-size: 20px;
+}
+
+.messages__rightButton:hover {
+  background-color: #364045 !important;
+  transition: 100ms ease-in;
+}

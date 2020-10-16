@@ -1,0 +1,4 @@
+.sideBarLeft {
+  display: flex;
+  flex-direction: column;
+}

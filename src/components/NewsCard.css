@@ -1,0 +1,68 @@
+.newscard {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 5px;
+  margin-top: 0;
+  box-shadow: black;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newscard__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.newscard__top > h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.newscard__top > .MuiSvgIcon-root {
+  color: grey;
+}
+
+.newscard__textContainer {
+  padding: 10px 10px;
+}
+
+.newscard__textContainerSpan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newscard__textContainerSpan > .MuiSvgIcon-root {
+  color: #0084bf;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.newscard__textContainerSpan > h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: auto;
+  color: rgb(43, 43, 43);
+}
+
+.newscard__textContainer > p {
+  font-size: small;
+  margin-top: 5px;
+  margin-left: 25px;
+  color: rgb(43, 43, 43);
+}
+
+.newscard__textContainer:hover {
+  background-color: #f3f6f8;
+  cursor: pointer;
+  color: #0084bf;
+  transition: 100ms ease-in;
+}

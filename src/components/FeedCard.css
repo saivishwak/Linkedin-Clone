@@ -1,0 +1,87 @@
+.feedcard {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 5px;
+  margin-top: 0;
+  box-shadow: black;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedcard__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.feedcard__top > h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.feedcard__top > .MuiSvgIcon-root {
+  color: grey;
+}
+
+.feedcard__textContainer {
+  padding: 10px 10px;
+}
+
+.feedcard__textContainerSpan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.feedcard__textContainerSpan > img {
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.feedcard__textContainerSpan > h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 50px;
+  color: rgb(43, 43, 43);
+}
+
+.feedcard__textContainer > p {
+  font-size: small;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.feedcard__textContainerSpan > button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #0084bf;
+  background-color: white;
+  outline: none;
+  border: 1px solid #0084bf;
+  padding: 5px 5px;
+  border-radius: 2px;
+}
+
+.feedcard__textContainerSpan > button > h3 {
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.feedcard__textContainerSpan > button > .MuiSvgIcon-root {
+  font-size: 20px;
+}
+
+.feedcard__textContainerSpan > button:hover {
+  background-color: #d1e4ee;
+  transition: 100ms ease-in;
+}

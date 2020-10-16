@@ -1,0 +1,64 @@
+.discovercard {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 5px;
+  margin-top: 0;
+  box-shadow: black;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.discovercard__top {
+  font-size: 14px;
+  padding: 5px 0px;
+}
+
+.discovercard__topContainer {
+  padding: 10px 20px;
+}
+
+.discovercard__topContainer:hover {
+  background-color: #f3f6f8;
+  transition: 100ms ease-in;
+}
+
+.hash_text {
+  color: grey;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hash_text:hover {
+  color: #2678a6;
+}
+
+#groups {
+  color: #2678a6;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.discovercard > hr {
+  border: none;
+  background-color: rgb(204, 204, 204);
+  width: 100%;
+  height: 1px;
+}
+
+.discovercard__bottom {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.discovercard__bottom > h3 {
+  margin-left: 10px;
+  color: rgb(61, 61, 61);
+  font-size: 14px;
+  font-weight: 500;
+}

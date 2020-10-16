@@ -1,0 +1,10 @@
+.app__container {
+  margin: 0px 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.app__body {
+  overflow-y: scroll;
+}

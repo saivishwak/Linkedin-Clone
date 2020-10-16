@@ -1,0 +1,31 @@
+.sideBarRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.sideBarRight > hr {
+  margin-top: 15px;
+  border: none;
+  background-color: rgb(204, 204, 204);
+  width: 100%;
+  height: 1px;
+}
+
+.sideBarRight__footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.sideBarRight__footerTop {
+  color: rgb(143, 143, 143);
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 20px 20px;
+  justify-content: space-between;
+}
+
+.sideBarRight__footerTop > p {
+  margin-left: 10px;
+}
