@@ -29,6 +29,12 @@ Linkedin Clone Application is developed with real-time database using MongoDB, F
     npm install
 
     npm start
+    
+    cd Backend
+    
+    pip install -r requirements.txt
+    
+    python server.py
 
 # Things to do before npm start
 - Add your firebase config in src/firebase.js
@@ -36,7 +42,6 @@ Linkedin Clone Application is developed with real-time database using MongoDB, F
 - Add your pusher config in src/components/body.js
 - Add your mongoDB config in Backend/mongo.py
 - Add your pusher-python config in Backedn/server.py
-- pip install requirements with Backend/requirements.txt
 - Initially create a linkedin_posts database in MongoDB
 
 ## [MIT License](https://raw.githubusercontent.com/saivishwak/Linkedin-Clone/master/LICENSE)
