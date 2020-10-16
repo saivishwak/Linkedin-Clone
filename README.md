@@ -12,6 +12,14 @@ React Linkedin clone with Realtime posts and sentiment Analysis
 
 Linkedin Clone Application is developed with real-time database using MongoDB, Font-End with React, Back-End with Python-Flask, Realtime-Connection - Pusher. The ML model is trained on Stanford Movie Review datasets so results might vary sometimes.
 
+![Image](./images/homepage.png)
+
+# Requirements
+
+- Node
+- Python
+- Browser 😃
+
 # Installation
 
     git clone https://github.com/saivishwak/Linkedin-Clone
