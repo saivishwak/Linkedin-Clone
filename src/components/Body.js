@@ -20,7 +20,7 @@ function Body() {
   }, []);
 
   useEffect(() => {
-    const pusher = new Pusher("", {
+    const pusher = new Pusher("add your config", {
       cluster: "",
     });
 
