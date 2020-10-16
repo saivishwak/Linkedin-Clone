@@ -17,6 +17,19 @@ function CreatePost() {
 
   const date = new Date();
 
+  useEffect(() => {
+    if (text) {
+      axios
+        .post("/api/v1/sentiment", {
+          text: text,
+        })
+        .then((response) => {
+          setSenti(response.data.sentiment);
+          //console.log(response.data.sentiment);
+        });
+    }
+  }, [text]);
+
   const closePop = () => {
     setSenti("");
     setText("");
@@ -78,7 +91,7 @@ function CreatePost() {
             onChange={(e) => setText(e.target.value)}
             placeholder="What do you want to talk about?"
           />
-          <p>{senti ? senti : "Sentiment Analysis"}</p>
+          <p>{text ? senti : "Sentiment Analysis"}</p>
         </div>
         <div className="createpost__bottom">
           <div className="createpost__bottomHash">
@@ -93,7 +106,7 @@ function CreatePost() {
             <VideocamOutlinedIcon />
             <EventOutlinedIcon />
             <DescriptionOutlinedIcon />
-            <button onClick={sentiment}>Sentiment Analysis</button>
+            {/*<button onClick={sentiment}>Sentiment Analysis</button>*/}
             <button onClick={sendPost}>Post</button>
           </div>
         </div>
