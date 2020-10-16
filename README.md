@@ -14,7 +14,7 @@ Linkedin Clone Application is developed with real-time database using MongoDB, F
 
 # Installation
 
-    git clone https://github.com/saivishwak/React-WhatsApp-Clone
+    git clone https://github.com/saivishwak/Linkedin-Clone
 
     cd Linkedin-Clone
 
