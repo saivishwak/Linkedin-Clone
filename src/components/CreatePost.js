@@ -17,6 +17,8 @@ function CreatePost() {
 
   const date = new Date();
 
+  {
+    /* 
   useEffect(() => {
     if (text) {
       axios
@@ -29,6 +31,8 @@ function CreatePost() {
         });
     }
   }, [text]);
+  */
+  }
 
   const closePop = () => {
     setSenti("");
@@ -38,13 +42,13 @@ function CreatePost() {
   };
 
   const sentiment = () => {
-    document.querySelector(".senti__preloader").classList.toggle("show");
+    //document.querySelector(".senti__preloader").classList.toggle("show");
     axios
       .post("/api/v1/sentiment", {
         text: text,
       })
       .then((response) => {
-        document.querySelector(".senti__preloader").classList.toggle("show");
+        //document.querySelector(".senti__preloader").classList.toggle("show");
         setSenti(response.data.sentiment);
         //console.log(response.data.sentiment);
       });
@@ -89,6 +93,7 @@ function CreatePost() {
           <textarea
             value={text}
             onChange={(e) => setText(e.target.value)}
+            onBlur={sentiment()}
             placeholder="What do you want to talk about?"
           />
           <p>{text ? senti : "Sentiment Analysis"}</p>
